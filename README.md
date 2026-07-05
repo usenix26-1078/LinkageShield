@@ -64,14 +64,7 @@ This step will:
 After trigger training is finished, go to the corresponding target model subdirectory, for example:
 
 ```bash
-cd target-model/GCN
-python main.py
-```
-
-or:
-
-```bash
-cd target-model/GAT
+cd target-model/GraphSage
 python main.py
 ```
 
