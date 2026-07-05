@@ -37,7 +37,7 @@
 
 
 - **`target-model/`**  
-  - Implementations of multiple target models (e.g., GCN, GAT, GraphSAGE, FSFN)  
+  - Implementations of multiple target models (e.g., GraphSAGE)  
   - Used to run **attack** and **defense** training under given trigger settings
 
 ---
