@@ -10,8 +10,8 @@ def load_graph_from_npz(file_path):
         file_path (str): npz 文件路径。
 
     返回:
-        Gs (torch_geometric.data.Data): 第一个图。
-        Gt (torch_geometric.data.Data): 第二个图。
+        Gs (torch_geometric.data.Data): 第一个图
+        Gt (torch_geometric.data.Data): 第二个图
     """
     # 加载 npz 文件
     data = np.load(file_path, allow_pickle=True)
